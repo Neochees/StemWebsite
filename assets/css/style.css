@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-image: url("../img/2304.w032.n002.943A.p30.943.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    color: white;
+    height: 150px;
+}
+#logo{
+    width: 120px;
+    margin: 15px;
+    border-radius: 50%;
+}
+#logo img{
+    /* width: 120px; */
+    height: 120px;
+    border-radius: 50%;
+}
+#title{
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+}
+#title h1{
+    margin: 0;
+    font-size: 50px;
+    width: 400px;
+}
+#nomineeren{
+    width: 160px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: solid white;
+    cursor: pointer;
+    height: auto;
+}
+#nomineeren h2{
+    margin: 0;
+    font-size: 30px;
+    width: 160px;
+}
+#contacten{
+    width: 135px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: solid white;
+    cursor: pointer;
+    height: auto;
+}
+#contacten h2{
+    margin: 0;
+    font-size: 30px;
+    width: 135;
+}
+#info{
+    width: 80px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    height: auto;
+}
+#info h2{
+    margin: 0;
+    font-size: 30px;
+    width: 80px;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    border-left: solid white;
+}
+#zoeken{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border-left: solid white;
+}
+#zoekenlogo{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#zoekenlogo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#content{
+    height: auto;
+    font-size: 40px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#content a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+#content img{
+    height: 100px;
+}
+.candidaatnumer{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+#content input{
+    height: 75px;
+    width: 75px;
+    z-index: 1;
+    color:#991915;
+}
+.inputtext{
+    top: -20px;
+    position: relative;
+    z-index: 1;
+}
+.linktext{
+    top: 20px;
+    position: relative;
+    z-index: 1;
+}
+#informatie{
+    color: white;
+    background-color: black;
+    width: 1440px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    opacity: 0.7;
+    z-index: 1;
+    height: auto;
+}
